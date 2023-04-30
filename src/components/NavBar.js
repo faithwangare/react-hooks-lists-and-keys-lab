@@ -1,6 +1,8 @@
 import React from "react";
+
 function NavBar() {
   const links = ["home", "about", "projects"];
+
   return (
     <nav>
       <ul>
@@ -17,4 +19,5 @@ function NavBar() {
     </nav>
   );
 }
+
 export default NavBar;

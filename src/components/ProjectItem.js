@@ -1,4 +1,5 @@
 import React from "react";
+
 function ProjectItem({ name, about, technologies }) {
   const technologySpans = technologies.map((technology) => (
     <span key={technology}>{technology}</span>
@@ -13,4 +14,5 @@ function ProjectItem({ name, about, technologies }) {
     </div>
   );
 }
+
 export default ProjectItem;
